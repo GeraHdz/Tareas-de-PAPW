@@ -1,0 +1,53 @@
+body{
+    color:white;
+    background-color: #061f69;
+}
+
+table{
+    table-layout: fixed ; 
+    width:400px ; 
+    text-align: center ; 
+    margin-left: auto ;
+    margin-right: auto;
+}
+
+.titulo{
+    font-size: 35px; 
+    text-align: center;
+}
+
+.vinculo{
+    text-align: center ; 
+    font-size: 20px;    
+}
+
+.margen{
+    width:300px ; 
+    text-align: center ; 
+    margin: 0 auto ;
+    border: 5px solid black ;
+    border-color: #ffcc00;
+}
+
+a:link{color:white;}
+a:visited{color: yellow;}
+a:hover{background-color: black;}
+
+img{vertical-align: bottom;}
+
+.header{
+    background-color: #ffcc00 ; 
+    color:black;
+}
+
+marquee{
+    background-color: #ffcc00;
+    color:black
+}
+
+li{
+    font-size:20px;
+}
+table, th, td{
+    border: 1px solid white;
+}
