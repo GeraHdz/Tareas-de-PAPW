@@ -1,0 +1,75 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <title>Tarea 5</title>
+        <link rel="stylesheet" type="text/css" href="bootstrap/css/bootstrap.css" />
+    </head>
+
+    <body>
+        <h1 style = "text-align: center">Registro de usuario</h1>
+        <form action = "reg.html" method = "GET" style = "padding-left : 100px ; padding-right:100px">
+
+            <div class="form-row">
+              <div class="form-group col-md-6">
+                    <label for="inputEmail4">Email</label>
+                    <input type="email" class="form-control" id="inputEmail4" placeholder="Email">
+              </div>
+
+              <div class="form-group col-md-6">
+                    <label for="inputPassword4">Password</label>
+                    <input type="password" class="form-control" id="inputPassword4" placeholder="Password">
+              </div>
+
+            </div>
+
+            <div class="form-check form-check-inline">
+                <input type="radio" class="form-check-input" id="inputSexoM" name="sexo" value = "M">
+                <label class= "form-check-label" for="inputSexoM" style= "padding-right: 35px">Masculino</label>
+
+                <input type="radio" class="form-check-input" id="inputSexoF" name="sexo" value = "F">
+                <label class= "form-check-label" for="inputSexoF">Femenino</label>
+            </div>
+
+            <!--<div class="form-check form-check-inline">
+                <label for="inputAddress2">Address 2</label>
+                <input type="text" class="form-control" id="inputAddress2" placeholder="Apartment, studio, or floor">
+            </div>!-->
+
+            <div class="form-row">
+
+                <div class="form-group col-md-6">
+                    <label for="inputCity">City</label>
+                    <input type="text" class="form-control" id="inputCity">
+                </div>
+
+                <div class="form-group col-md-4">
+                    <label for="inputState">State</label>
+                    <select id="inputState" class="form-control">
+                    <option selected>Choose...</option>
+                    <option>...</option>
+                    </select>
+
+                </div>
+                <div class="form-group col-md-2">
+                    <label for="inputZip">Zip</label>
+                    <input type="text" class="form-control" id="inputZip">
+                </div>
+
+            </div>
+
+            <div class="form-group">
+
+              <div class="form-check">
+                <input class="form-check-input" type="checkbox" id="gridCheck">
+                <label class="form-check-label" for="gridCheck">
+                  Check me out
+                </label>
+              </div>
+
+            </div>
+            
+            <button type="submit" class="btn btn-primary">Sign in</button>
+            <button type= "reset" class= "btn btn-primary"> Cancelar</button>
+          </form>
+    </body>
+</html>
